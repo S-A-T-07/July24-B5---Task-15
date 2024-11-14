@@ -1,0 +1,21 @@
+header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 100;
+  backdrop-filter: blur(20px);
+}
+
+header nav {
+  display: flex;
+  gap: 30px;
+}
+
+header a {
+  color: #882020;
+  font-weight: 800;
+  text-decoration: none;
+}
